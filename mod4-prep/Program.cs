@@ -32,14 +32,10 @@ namespace ConsoleApplication1
                 students[i].stName = Console.ReadLine();
                 Console.WriteLine("My {0} student Name is: {1}", i, students[i].stName);
                 students[i].stSurname = Console.ReadLine();
-                Console.WriteLine("My {0} student Surname is: {0}", i, students[i].stSurname);
+                Console.WriteLine("My {0} student Surname is: {1}", i, students[i].stSurname);
             }
             Console.ReadKey();
         }
-
-
-
-
     }
 }
 
